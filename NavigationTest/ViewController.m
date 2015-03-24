@@ -14,13 +14,13 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     
-    self.navigationController.navigationBarHidden = YES;
+    self.navigationController.navigationBar.hidden = YES;
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
     [super viewWillDisappear:animated];
-
-    self.navigationController.navigationBarHidden = NO;
+    
+    self.navigationController.navigationBar.hidden = NO;
 }
 
 @end
